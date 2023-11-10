@@ -1,0 +1,635 @@
+@import "vars";
+
+
+@media (min-width: 1921px) {
+    body {
+        min-width: 1921px;
+        max-width: 100%;
+    }
+
+    .container {
+        width: 100vw;
+        margin: 0 auto;
+    }
+
+    .headerEntry {
+        height: 10%;
+    }
+
+    .accountsCardWrapper__card {
+        height: 10%;
+    }
+
+    .bodyAccount__dynamic__graph {
+        width: 100%;
+        height: 27vh;
+    }
+
+    #myChart {
+        width: 100%;
+        height: 27vh;
+        margin: 0 auto;
+    }
+
+    .bodyAccount__dynamic__title2 {
+        margin-bottom: 7vh;
+    }
+
+    .currenciesWrapper__grid__section3 {
+        height: 86%;
+    }
+
+    .currenciesWrapper__grid__section3__title {
+        margin-bottom: 2vh;
+    }
+
+}
+
+@media (max-width: 1199px) {
+    body {
+        min-width: 1024px;
+        max-width: 100%;
+    }
+
+    .headerEntry {
+        margin-bottom: 23vh;
+    }
+
+    .entryWind {
+        width: 49vw;
+
+        &__form {
+
+            &__btn {
+                width: 10vw;
+            }
+
+        }
+    }
+
+    .divHeaderListWrapper {
+        position: relative;
+        width: 50%;
+    }
+
+    .accountsCardWrapper__card {
+        height: 180px;
+    }
+
+    .accountsCardWrapper__card__date {
+        margin-bottom: 7vh;
+    }
+
+    .accountsCardWrapper__card__btn {
+        position: absolute;
+        right: 33%;
+        top: 70%;
+    }
+
+    .bodyAccount__transfer__form__sum__label {
+        text-align: left;
+    }
+
+    .bodyAccount__transfer__form__sum__input {
+        width: 20vw;
+    }
+
+    .bodyAccount__requisite__number {
+        font-size: 28px;
+    }
+
+    .bodyAccount__transfer__form,
+    .bodyAccount__dynamic {
+        padding: 5% 8%;
+    }
+
+    .bodyAccount__history {
+        padding: 2% 4%;
+    }
+
+    .bodyAccount__history__table__thFrom {
+        width: 26%;
+        text-align: left;
+        padding: 0 1%;
+    }
+
+    .bodyAccount__history__table__thTo {
+        width: 27%;
+        text-align: left;
+    }
+
+    tbody {
+        font-size: 14px;
+    }
+
+    .graph1 {
+        width: 83%;
+    }
+
+    .currenciesWrapper__grid__section3 {
+        padding: 6% 5% 3% 4%;
+    }
+
+    .currenciesWrapper__grid__section2 {
+        grid-column: 1/3;
+        width: 89%;
+    }
+
+    .currenciesWrapper__grid__section2__form__field1,
+    .currenciesWrapper__grid__section2__form__field2 {
+        justify-content: space-between;
+
+        &__select {
+            width: 20vw;
+            height: 4vh;
+        }
+    }
+
+    .currenciesWrapper__grid__section2__form__field3__input3 {
+        width: 47vw;
+        height: 4vh;
+    }
+
+    .currenciesWrapper__grid__section2__form__field3 {
+        align-items: center;
+    }
+}
+
+@media (max-width: 1023px) {
+    body {
+        min-width: 768px;
+        max-width: 100%;
+    }
+
+    .entryWind {
+        width: 62vw;
+
+        &__form {
+            &__btn {
+                width: 14vw;
+            }
+        }
+    }
+
+    .divHeaderListWrapper {
+        position: relative;
+        width: 62%;
+    }
+
+    .divHeaderList {
+        gap: 10px;
+    }
+
+    .divHeaderListLi1Btn,
+    .divHeaderListLi2Btn,
+    .divHeaderListLi3Btn,
+    .divHeaderListLi4Btn {
+        font-size: 14px;
+    }
+
+    .accountsCardWrapper__card {
+        width: 38.5vw;
+        height: 160px;
+    }
+
+    .bodyAccount__requisite__title {
+        font-size: 32px;
+    }
+
+    .bodyAccount__requisite__number {
+        font-size: 20px;
+    }
+
+    .bodyAccount__dynamic {
+        width: 88%;
+    }
+
+    .bodyAccount__transfer__form__number-wrapper,
+    .bodyAccount__transfer__form__sum-wrapper {
+        flex-direction: column;
+    }
+
+    .bodyAccount__transfer__form__number__label,
+    .bodyAccount__transfer__form__sum__label {
+        margin-bottom: 1vh;
+    }
+
+    .bodyAccount__transfer__form__title,
+    .bodyAccount__dynamic__title,
+    .bodyAccount__history__title {
+        text-align: center;
+    }
+
+    .bodyAccount__transfer__form__sum__input,
+    .bodyAccount__transfer__form__number__select {
+        width: 100%;
+    }
+
+    .bodyAccount__transfer__form,
+    .bodyAccount__dynamic {
+        height: auto;
+        width: 90%;
+    }
+
+    .bodyAccount {
+        gap: 6vh 5vw;
+    }
+
+    .bodyAccount__history__table thead {
+        font-size: 16px;
+        height: 50px;
+    }
+
+    tbody {
+        font-size: 12px;
+    }
+
+    .bodyAccount__history__table__thFrom,
+    .bodyAccount__history__table__thTo {
+        width: 34%;
+    }
+
+    .bodyAccount__dynamic__graph {
+        #myChart {
+            height: 185px;
+            width: 310px;
+        }
+    }
+
+    .bodyAccount__dynamic {
+        height: auto;
+        width: 84%;
+    }
+
+    .bodyAccount__dynamic__title {
+        margin-bottom: 6vh;
+    }
+
+    .currenciesWrapper__grid__section1__title {
+        padding: 0;
+        text-align: center;
+    }
+
+    .currenciesWrapper__grid__section3 {
+        height: 93%;
+
+        &__list {
+            padding: 0% 3%;
+        }
+    }
+
+    .currenciesWrapper__grid__section2__form__field3__input3 {
+        width: 45vw;
+    }
+
+}
+
+@media (max-width: 767px) {
+    body {
+        min-width: 577px;
+        max-width: 100%;
+    }
+
+    .entryWind {
+        width: 68vw;
+        border-radius: 35px;
+
+
+        &__form {
+            &__login {
+                justify-content: space-between;
+            }
+
+            &__password {
+                justify-content: space-between;
+            }
+
+            &__btn {
+                margin: 0 auto 6vh;
+                width: 20vw;
+            }
+        }
+    }
+
+    .headerEntry {
+        flex-direction: column;
+        margin-bottom: 3vh;
+        height: 150px;
+
+        &__img {
+            width: 20%;
+            margin: 0 auto;
+        }
+    }
+
+    .accountsHeader {
+        &__sort {
+            flex-direction: column;
+
+            &__select {
+                width: 100%;
+            }
+        }
+    }
+
+    .accountsCardWrapper__card {
+        width: 100%;
+        height: 180px;
+
+        &__btn {
+            right: 40%;
+        }
+    }
+
+    .divHeaderListWrapper {
+        position: relative;
+        margin: 0 auto;
+        width: 83%;
+    }
+
+    .divHeaderList {
+        margin: 0;
+        padding: 0;
+    }
+
+    .bodyAccount {
+        grid-template-columns: 1fr;
+    }
+
+    .bodyAccount__requisite {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .bodyAccount__requisite__title {
+        font-size: 32px;
+        order: 1;
+        text-align: center;
+        grid-column: 1/3;
+    }
+
+    .bodyAccount__requisite__number {
+        font-size: 20px;
+        order: 2;
+        text-align: center;
+        grid-column: 1/3;
+    }
+
+    .bodyAccount__requisite__balance {
+        font-size: 20px;
+        order: 3;
+        width: 45vw;
+        display: flex;
+        margin: 0 auto;
+        grid-column: 1/3;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .bodyAccount__transfer {
+        order: 2;
+        grid-column: 1/3;
+        width: 95%;
+    }
+
+    .bodyAccount__dynamic {
+        order: 3;
+        grid-column: 1/3;
+        width: 84%;
+    }
+
+    #myChart {
+        height: auto;
+        width: 100%;
+    }
+
+    tbody {
+        font-size: 11px;
+    }
+
+    .bodyAccount__history__table__thFrom,
+    .bodyAccount__history__table__thTo {
+        width: 37%;
+    }
+
+    .bodyAccount__history__table__thDate {
+        width: 20%;
+        text-align: left;
+    }
+
+    .bodyAccount__requisite__btn {
+        grid-column: 1/3;
+        order: 4;
+        padding: 10px 35px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .currenciesWrapper__grid__section1 {
+        grid-column: 1/3;
+        width: 90%;
+    }
+
+    .currenciesWrapper__grid__section2 {
+        order: 2;
+        width: 90%;
+        margin-bottom: 2vh;
+    }
+
+    .currenciesWrapper__grid__section3 {
+        order: 3;
+        grid-column: 1/3;
+        width: 90%;
+    }
+
+    section {
+        svg {
+            width: 10vw;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        min-width: 320px;
+        max-width: 100%;
+    }
+
+    .headerEntry {
+        position: relative;
+        height: 25%;
+        margin-bottom: 3vh;
+    }
+
+    .headerEntry__img {
+        padding: 5% 0;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .entryWind {
+        width: 90vw;
+        border-radius: 30px;
+
+        &__title {
+            font-size: 30px;
+        }
+
+        &__form {
+            &__login {
+                flex-direction: column;
+                gap: 10px;
+                margin-bottom: 1.5vh;
+
+                &__input {
+                    width: 88%;
+                }
+
+                &__label {
+                    width: auto;
+                    margin: 0 auto;
+                }
+            }
+
+            &__password {
+                flex-direction: column;
+                gap: 10px;
+
+                &__input {
+                    width: 88%;
+                }
+
+                &__label {
+                    width: auto;
+                    margin: 0 auto;
+                }
+            }
+
+            &__btn {
+                width: 88%;
+            }
+        }
+    }
+
+    .divHeaderList {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-evenly;
+    }
+
+    .divHeaderListLi1Btn,
+    .divHeaderListLi2Btn,
+    .divHeaderListLi3Btn,
+    .divHeaderListLi4Btn {
+        width: 42vw;
+    }
+
+    .accountsHeader {
+        flex-direction: column;
+
+        &__sort {
+            &__title {
+                text-align: center;
+            }
+
+            &__select {
+                margin-bottom: 2vh;
+            }
+        }
+    }
+
+    .accountsCardWrapper__card {
+        height: 200px;
+
+        &__btn {
+            right: 32vw;
+        }
+    }
+
+    .bodyAccount__requisite__balance {
+        width: 100%;
+    }
+
+    .bodyAccount__dynamic__graph {
+        width: 100%;
+        height: 15vh;
+    }
+
+    .bodyAccount__history {
+        padding: 2% 4%;
+        overflow-x: scroll;
+    }
+
+    .bodyAccount__history__table {
+        width: 600px;
+    }
+
+    .bodyAccount__dynamic__title2 {
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+
+    .currenciesWrapper__title {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .currenciesWrapper__grid__section1 {
+        width: 92%;
+    }
+
+    .currenciesWrapper__grid__section1__list {
+        list-style: none;
+        padding: 0 0 0 5%;
+
+        &__li {
+            font-size: 16px;
+        }
+    }
+
+    .currenciesWrapper__grid__section2 {
+        &__title {
+            text-align: center;
+        }
+
+        &__form {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 2vh;
+
+            &__field1,
+            &__field2 {
+                &__select {
+                    width: 70vw;
+                }
+            }
+
+            &__button {
+                order: 4;
+                height: 5vh;
+            }
+
+            &__field3 {
+                &__input3 {
+                    width: 60vw;
+                }
+            }
+        }
+    }
+
+    .currenciesWrapper__grid__section3__list__li {
+        font-size: 16px;
+    }
+
+    .mapTitle {
+        padding: 0;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    section {
+        svg {
+            width: 10vw;
+        }
+    }
+}

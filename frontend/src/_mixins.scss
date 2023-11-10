@@ -1,0 +1,44 @@
+@mixin field-hover {
+    background-color: $blue-light-color;
+    border-color: $blue-color;
+    cursor: pointer;
+}
+
+@mixin field-focus {
+    background-color: $blue-light-color;
+        border: 2px solid $blue-color;
+}
+
+@mixin button {
+    background-color: $blue-color;
+    outline: none;
+    border-radius: 7px;
+    color: $white-color;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+@mixin button-hover {
+    background-color: $blue-hover;
+    outline: none;
+}
+
+@mixin button-active {
+    background-color: $blue-active;
+    outline: none;
+}
+
+@mixin button-disable {
+    background-color: $grey5-color;
+    outline: none;
+}
+
+@mixin menu-active {
+    background-color: $blue-light-color;
+    color: $blue-color;
+    border-color: transparent;
+}
+
+@mixin menu-hover {
+    background: $light-color;
+}
